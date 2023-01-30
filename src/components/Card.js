@@ -18,6 +18,7 @@ const Card = (props) => {
           <p className="card--description">{props.description}</p>
         </div>
       </section>
+      {props.id !== 3 && <hr class="card--divider"/>}
     </div>
   )
 }
