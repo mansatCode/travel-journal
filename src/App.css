@@ -19,6 +19,7 @@ h1 {
   line-height: 18px;
   letter-spacing: -0.075em;
   color: #FFFFFF;
+  margin-bottom: 22px;
 }
 
 .header--logo {
@@ -27,7 +28,7 @@ h1 {
 }
 
 .card {
-  padding: 40px 40px 18px 40px;
+  padding: 18px 40px 18px 40px;
   display: flex;
 }
 
@@ -81,5 +82,8 @@ h1 {
 
 .card--divider {
   border: 1px solid #F5F5F5;
-  margin-top: 0px;
+}
+
+.card--image {
+  max-height: 168px;
 }
